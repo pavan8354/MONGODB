@@ -3,14 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WebScrapTest">
+      <class name="com.qa.mongodb.livereport.AmazonAppTest">
         <methods>
-          <include name="webScrapeTest" invocation-numbers="0"/>
-          <include name="connectMongoDB"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="amazon_BC"/>
+          <include name="amazon_points"/>
+          <include name="amazon_tours"/>
+          <include name="Laptop_display"/>
+          <include name="setup"/>
+          <include name="amazon_career"/>
+          <include name="teardown"/>
+          <include name="amazon_test1"/>
         </methods>
-      </class> <!-- WebScrapTest -->
+      </class> <!-- com.qa.mongodb.livereport.AmazonAppTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
